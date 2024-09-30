@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.footer {
+    height: 350px;
+    background-color: rgb(58, 55, 55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid gray;
+    color: white ;
+}
+
+.footer .title {
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.footer .images img {
+    width: 150px;
+    height: 150px;
+}
+.footer .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    width: 30%;
+}
+
+.footer .icons ion-icon {
+    font-size: 35px;
+}
