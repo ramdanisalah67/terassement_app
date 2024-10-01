@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+
+  @Output() sectionSelected = new EventEmitter<string>();
+
+  navigateToSection(section: string) {
+    this.sectionSelected.emit(section);  // Emit the section name to the parent
+  }
 
 }

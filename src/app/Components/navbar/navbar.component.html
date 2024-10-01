@@ -7,11 +7,11 @@
         <span><ion-icon name="home-outline"></ion-icon></span>
         <span>Home</span>
     </li>
-    <li [routerLink]="[]" fragment="about" >
+    <li  (click)="navigateToSection('about')" >
         <span><ion-icon name="information-circle-outline"></ion-icon></span>
         <span>About</span>
     </li>
-    <li>
+    <li (click)="navigateToSection('services')">
         <span><ion-icon name="albums-outline"></ion-icon></span>
         <span>Services</span>
     </li>
