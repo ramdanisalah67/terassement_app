@@ -93,12 +93,13 @@
         padding: 20px 20px;
         background-color: beige;
         padding: 15px 0px;
+        height: 800px;
         
     }
     .text p {
         line-height: 25px;
         padding-top: 15px;
-        font-size: 12px;
+        font-size: 10px !important;
     }
     .details .images {
         display: flex;
@@ -138,7 +139,7 @@
     }
     .details {
         width: 90%;
-        height: 300px;
+        height: 400px;
         padding: 0px;
     }
    
