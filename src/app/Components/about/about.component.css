@@ -232,7 +232,7 @@
 
 .mission {
     padding: 0px;
-    height: 110vh;
+    height: 70vh;
     overflow: scroll;
 }
 
@@ -258,7 +258,7 @@
     padding: 15px;
     width: 80%;
     margin: 0px;
-    font-size: 14px;
+    font-size: 10px !important;
 
 
 }
