@@ -46,3 +46,51 @@
 .navbar ul li ion-icon {
     font-size: 30px;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 603px) {
+
+
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 80px;
+    padding-top: 15px;
+    background-color: aliceblue;
+}
+
+
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.navbar ul li ion-icon {
+    font-size: 20px;
+}
+
+
+}
