@@ -5,12 +5,70 @@
 }
 
 
+.head   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(196, 166, 85);
+    padding: 0px 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.head .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.head .logo img {
+    width: 120px;
+
+}
+
+.head .logo span {
+    position: relative;
+    bottom: 15px;
+    font-style: italic;
+    color: white;
+
+}
+
+.head .infos {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.2;
+}
+
+.infos i {
+    font-size: 25px;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.infos i:nth-child(1) {
+    color: rgb(255, 60, 0);
+}
+
+
+.infos i:nth-child(3) {
+    color: rgb(228, 235, 222);
+}
+.infos i:nth-child(5) {
+    color: rgb(91, 153, 62);
+}
 .navbar {
     display: flex;
     width: 50%;
     margin: auto;
     height: 80px;
     padding-top: 15px;
+    margin-top: 150px;
 }
 
 
@@ -57,14 +115,28 @@
 
 @media (max-width: 603px) {
 
-
+.head .infos span {
+    font-size: 12px;
+    
+}
+.head .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 0.4;
+}
+.head .infos i {
+    margin-top: 10px;
+}
 .navbar {
     display: flex;
     width: 90%;
     margin: auto;
     height: 80px;
     padding-top: 15px;
-    background-color: aliceblue;
+    
+    margin-top: 150px;
+
 }
 
 

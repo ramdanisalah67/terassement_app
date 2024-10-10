@@ -1,7 +1,25 @@
+<div class="head">
+    <div class="logo">
+        <img src="../../../assets/imgs/sticker-engin-pelteuse-removebg-preview.png" alt="">
+        <span>h.btp</span>
+    </div>
+    <div class="infos">
+            <i class="fa-solid fa-location-dot" (click)="openDialog()"></i>
+        <span>112,route Plan De La Tour 83120 Saint Maixime </span>
+    
+     
+            <i class="fa-solid fa-envelope"></i>
+            <span>83h.btp&#64;gmail.com</span>
+
+            <i class="fa-solid fa-phone"></i>
+            <span>078404046</span>
+    </div>
+</div>
+
 <div class="navbar">
     
    <ul>
-    <li>
+    <li (click)="navigateToSection('home')" > 
         <span><ion-icon name="home-outline"></ion-icon></span>
         <span>Home</span>
     </li>
@@ -13,7 +31,7 @@
         <span><ion-icon name="albums-outline"></ion-icon></span>
         <span>Services</span>
     </li>
-    <li>
+    <li (click)="navigateToSection('contacts')" >
         <span><ion-icon name="call-outline"></ion-icon></span>
         <span>Contact us</span>
     </li>

@@ -42,30 +42,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #8baac6;
     width: 70%;
     margin: 0px 35px;
     padding: 0px 25px;
     border-radius: 15px;
-}
-.services .card:nth-child(2) .text {
-    background-color: #7d9dbb;
-
+    border: 2px solid white;
 }
 
-.services .card:nth-child(3) .text {
-    background-color: #9a9fa3;
 
-}
-
-.services .card:nth-child(4) .text {
-    background-color: #90c4ee;
-
-}
-.services .card:nth-child(5) .text {
-    background-color: #acacac;
-
-}
 
 .services .card .text .header {
     font-size: 25px;
@@ -131,30 +115,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #8baac6;
     width: 70%;
     margin: 0px 35px;
     border-radius: 15px;
     height: 170px;
 }
-.services .card:nth-child(2) .text {
-    background-color: #7d9dbb;
 
-}
-
-.services .card:nth-child(3) .text {
-    background-color: #9a9fa3;
-
-}
-
-.services .card:nth-child(4) .text {
-    background-color: #90c4ee;
-
-}
-.services .card:nth-child(5) .text {
-    background-color: #acacac;
-
-}
 
 .services .card .text .header {
     font-size: 16px;
@@ -167,6 +133,8 @@
     line-height: 25px;
     font-size: 10px;
 }
+
+
 
 
 }

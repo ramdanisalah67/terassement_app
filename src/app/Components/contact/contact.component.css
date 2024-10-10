@@ -5,6 +5,24 @@
 }
 
 
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    width: 50%;
+    margin: auto;
+}
+
+.links .link {
+    border-bottom: 2px solid white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 14px;
+    
+}
 
 .footer {
     height: 350px;
@@ -65,12 +83,7 @@
     font-size: 25px;
     font-weight: 600;
 }
-.footer .images {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 70%;
-}
+
 .footer .images img {
     width: 60px;
     height: 60px;
@@ -79,11 +92,28 @@
     display: flex;
     justify-content: space-around;
     align-items: center;   
-    width: 30%;
+    width: 50%;
 }
 
 .footer .icons ion-icon {
     font-size: 35px;
 }
 
+
+.links {
+    display: flex;
+    width: 100%;
+
+    
 }
+
+.footer .links .link {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+ion-icon {
+    cursor: pointer;
+}
+}
+
