@@ -7,7 +7,7 @@
 .context {
     width: 100%;
     margin: auto;
-
+    
     
 }
 .title {
@@ -147,8 +147,6 @@
         align-items: center;
         justify-content: space-around;
         align-items: center;
-        height: 500px;
-        border-radius: 15px;
     }
 
 
@@ -182,7 +180,6 @@
 
 .mission {
     padding: 0px;
-    height: 90vh;
     overflow: scroll;
 }
 
@@ -198,10 +195,9 @@
 
 }
 
-.mission .info img {
-    width: 80%;
-    height: 200px;
-
+.mission .info .images img {
+    width: 30%;
+    height: 180px;
 }
 
 .mission .info p {
